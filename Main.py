@@ -156,16 +156,6 @@ class About(QWidget):
         self.groupBox.setLayoutDirection(Qt.RightToLeft)
         self.gridLayout = QGridLayout()
 
-        self.about1 = QLabel("تم تطوير البرنامج بفكرة")
-        self.about1.setFont(QtGui.QFont("sanserif",15))
-        self.about1.setStyleSheet('color:white')
-        self.gridLayout.addWidget(self.about1, 1, 0)
-
-        self.about1 = QLabel("من مستر محمد عبدالعاطي")
-        self.about1.setFont(QtGui.QFont("sanserif",15))
-        self.about1.setStyleSheet('color:white')
-        self.gridLayout.addWidget(self.about1, 2, 0)
-
         self.about1 = QLabel("تم تطوير البرنامج")
         self.about1.setFont(QtGui.QFont("sanserif",15))
         self.about1.setStyleSheet('color:white')
